@@ -8,16 +8,16 @@ public class MainController {
 	
 	
 	
-	@GetMapping("/")
+	// @GetMapping("/index")
 	public String home() {
 		return "index";
 	}
-	@GetMapping("/payment")
+	// @GetMapping("/payment")
 	public String payment() {
 		return "payment";
 	}
 	
-	@GetMapping("/homepage")
+	// @GetMapping("/homepage")
 	public String homepage() {
 		return "homepage";
 	}
